@@ -29,7 +29,7 @@ end
 end]]
 wait(1)
 for i, v in pairs(workspace.DroppedParts[base.Name]:GetChildren()) do
-    game:GetService("ReplicatedStorage").Pulse:FireServer()
+    --game:GetService("ReplicatedStorage").Pulse:FireServer()
     if v.Name == "Gargantium Mine" then
         function t(...)
             local args = {...}
